@@ -63,4 +63,4 @@ el('cloudSendLink').onclick=async()=>{if(!cloudClient){cloudNote('Cloud not conn
 el('cloudSyncNow').onclick=()=>syncCloud().catch(()=>{});
 el('cloudSignOut').onclick=async()=>{if(!cloudClient)return;if(!confirm('Sign out of cloud? Workouts saved on this phone will remain visible here.'))return;const {error}=await cloudClient.auth.signOut();if(error)cloudNote('Sign-out error: '+error.message,'Connected');else await setCloudSession(null)};
 window.addEventListener('load',()=>initializeCloud().catch(e=>cloudNote('Cloud setup error: '+e.message,'Local only')));
-</script><script src="./coach.js" defer></script></body></html>
+</script><script src="./coach.js?v=20261022-camera4" defer></script></body></html>
