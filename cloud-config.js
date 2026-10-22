@@ -1,7 +1,8 @@
 // Public Supabase project configuration. NEVER put your service_role or secret key here.
-  window.COLE_FIT_CLOUD = {
-url: https://lhkxiyzcmgmtgnygckyt.supabase.co
-  anonKey: sb_publishable_XZNJh6qG7ZqsnBAVqYphHQ_NaCwVVfA"
+window.COLE_FIT_CLOUD = {
+  url: "https://fyzixumgclwohjllqefs.supabase.co",
+  anonKey: "sb_publishable_iOzmMUp_JKoqmCv93_wlQw_raDs4Uje"
 };
+
 
   
