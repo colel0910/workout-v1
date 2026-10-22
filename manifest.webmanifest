@@ -1,7 +1,7 @@
 {
   "name": "Cole Fit \u2014 Road to 225",
   "short_name": "Cole Fit",
-  "description": "Offline-friendly workout logging, history, and weight suggestions",
+  "description": "Workout logging with optional private cloud history sync",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
