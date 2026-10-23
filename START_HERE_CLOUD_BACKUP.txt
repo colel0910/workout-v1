@@ -1,0 +1,32 @@
+COLE FIT ULTIMATE — OPTIONAL PRIVATE CLOUD BACKUP
+
+WHAT IS INCLUDED
+- All previous Cole Fit website files and existing features
+- Lab > New Features > Cloud backup: email sign-in, manual cloud backup, and manual cloud restore
+- Keeps saving locally even if cloud is offline or not configured
+- Separate local Backup tab still offers download/restore
+
+IMPORTANT: CLOUD IS NOT CONNECTED UNTIL YOU COMPLETE SETUP.
+No account keys are included; only the owner can supply their own service settings.
+
+SETUP (free-tier Supabase may be available)
+1. Make a Supabase project at https://supabase.com.
+2. Open SQL Editor. Run CLOUD_BACKUP_SETUP.sql (creates a private backup table with row-level security).
+3. Supabase Dashboard > Project Settings / Connect > copy the Project URL and public publishable / anon key.
+4. Open cloud-config.js, paste these two values. NEVER paste a secret or service_role key.
+5. In Supabase Authentication > URL Configuration, set Site URL to:
+   https://colel0910.github.io/workout-v1/
+   Add the same address to Redirect URLs.
+6. Ensure email OTP / magic links are enabled in Supabase Auth. Supabase's hosted email service has rate limits.
+7. Upload all files in this ZIP to the ROOT of your GitHub repo workout-v1, including cloud-backup.js, cloud-config.js, and SQL setup file (SQL is not loaded by the site).
+8. In iPhone Safari open https://colel0910.github.io/workout-v1/, refresh. Go Lab > New Features > Cloud.
+9. Sign in with email, then tap Back up now to make your first cloud backup. You can restore on another device by signing into the same account.
+
+SAFETY
+- Backups are PRIVATE BY ACCOUNT only if the supplied SQL policies have been correctly applied.
+- GitHub Pages is PUBLIC, so only use the *public* publishable/anon key, NEVER any secret key.
+- Cloud backup is MANUAL. It does not continuously sync, and last backup replaces the previous one.
+- Cloud restores replace local data for backed-up keys. Export a local backup first.
+- No cloud service has been configured on your behalf and no data has been uploaded.
+- The iPhone browser and the saved Home Screen app can sometimes maintain different local stores.
+- Current files preserve YouTube guides and existing workout tools.

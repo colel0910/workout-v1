@@ -1,0 +1,7 @@
+Cole Fit — Dedicated Cloud Backup Tab
+
+Upload all website files to the root of your GitHub Pages repository. The Cloud tab is in the bottom navigation. Enter your email, open the sign-in link, and wait for Connected status before choosing Back up now or Restore.
+
+IMPORTANT: A public project URL and publishable key do not establish a secure working database. Run CLOUD_BACKUP_SETUP.sql in your own Supabase project and configure the site URL/redirect URLs in Supabase Auth. Backups remain manual. Always export a local backup before restoring.
+
+This package includes the whole site for deployment and keeps your other workout screens.
