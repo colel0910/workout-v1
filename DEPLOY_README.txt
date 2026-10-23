@@ -1,9 +1,10 @@
-Cole Fit Studio redesign
+COLE FIT ULTIMATE + EXTRAS
 
-1. Back up your workout history inside your existing Cole Fit app BEFORE updating.
-2. Upload these files to your existing GitHub Pages repository root, replacing matching files.
-3. Keep your existing cloud-config.js unchanged if you still use cloud sync; this package does NOT contain it.
-4. Refresh Safari. If the Home Screen version looks old, open the site in Safari first.
-5. Test saving a set, viewing History, Build tab, Guides, and AI Coach on your own phone.
+1. Back up existing workout data from the website first.
+2. Unzip and upload ALL enclosed files into the ROOT of your GitHub Pages repository, replacing files of the same name.
+3. Commit. Open https://colel0910.github.io/workout-v1/ in Safari and reload.
+4. Tap Lab > New Features. All existing Lab tools are under Lab > Training Lab.
 
-The rest timer works while the page is active. This update does not add cloud storage or guarantee camera operation. It keeps the original modules and local storage logic.
+New features: exercise swap, complete local backup/restore, watch-style iPhone preview (NOT native watchOS), music links, rest timer, weekly planner, analytics, optional speech recognition, local friend challenge messages, dashboard settings, weekly report.
+
+The original training, YouTube guides, builder and AI Coach remain. No cloud multiplayer or true Apple Watch app is included. Permissions and platform support vary on iPhone.
